@@ -1,0 +1,6 @@
+car_models = ["BMW", "MB", "LADA", "KIA", "HONDA"]
+a = 'Я езжу на автомабиле марки '
+cars_count = 0
+for i in range(len(car_models)):
+    cars_count += 10
+    print(cars_count, (a + car_models[i]))
