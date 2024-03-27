@@ -1,0 +1,12 @@
+def print_params(a, b):
+    print(a, b)
+
+
+print_params(5, 6)
+print_params(7, 8)
+print_params("a", "b")
+print_params(True, False)
+print_params([1, 2, 3], 6)
+print_params(*[1, 2])
+print_params({'data: ': 28.03}, 2024)
+print_params(** {'a': 28, 'b': 3})
